@@ -244,6 +244,11 @@ h1 > [src$='diskusage48.png'] {
   .icon(@size-lg);
 }
 
+#side-panel .icon-xlg {  //  Workaround for https://issues.jenkins-ci.org/browse/JENKINS-33191
+  padding-left: @size-md * 1.02 !important;
+  padding-top: @size-md * 1.02 !important;
+}
+
 .icon-xlg {
   .icon(@size-xl);
 }
